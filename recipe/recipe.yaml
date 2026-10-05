@@ -24,8 +24,9 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - jax
-    - equinox
+    - jax >=0.4.38
+    - equinox >=0.13.3
+    - numpy >=1.24
 
 tests:
   - python:
