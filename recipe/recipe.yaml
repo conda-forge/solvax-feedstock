@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.28.5"
+  version: "0.29.0"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/solvax/solvax-${{ version }}.tar.gz
-  sha256: 2f2e0cd4ccaf1acde339caf5f5e90689c95f4658cb4dfa4e3a14e934ae6be36b
+  sha256: 28369e1f156b126dbefdeb78d3b968f726dc8190e5796b63ed1ecddf77e242bc
 
 build:
   number: 0
