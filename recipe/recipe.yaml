@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/solvax/solvax-${{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/s/solvax/solvax-${{ version }}.tar.gz
   sha256: 42c1b742136334a562d7dc95ff807ee101e9ebf39a203347e0eadad26dab1fd0
 
 build:
